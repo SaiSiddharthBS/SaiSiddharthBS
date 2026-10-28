@@ -1,94 +1,108 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Sai Siddharth — building thoughtful software from interface to infrastructure" width="100%">
+<img src="assets/banner.png" width="100%" alt="Sai Siddharth B S — embedded systems, avionics and defence technology, AI and software. An aircraft cockpit overlooking a runway at dusk.">
 
 <br>
 
-<a href="#selected-work"><b>Selected work</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#what-i-work-with"><b>Technical scope</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://saisiddharthbs.github.io/OpenWave/"><b>OpenWave</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://github.com/SaiSiddharthBS?tab=repositories"><b>All repositories</b></a>
+<a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
+<a href="#engineering-interests">Engineering interests</a> &nbsp; / &nbsp;
+<a href="#toolbox">Toolbox</a> &nbsp; / &nbsp;
+<a href="#connect">Connect</a>
+
+<h1>Sai Siddharth B S</h1>
+
+<b>Hardware curiosity. Software craft. Products that work.</b>
+
+I build across applications, applied AI, and data systems.<br>
+My interests extend into embedded systems, avionics, and defence technology.
 
 </div>
 
 <br>
-
-## About
-
-I build software that turns complicated systems into products people can actually use. My work moves between **cross-platform applications, applied AI, financial tooling, and local-first infrastructure**—usually owning the full path from product design and interface work to backend services, data models, packaging, and release engineering.
-
-Right now, I am focused on **OpenWave**, an open-source music player that runs across desktop, mobile, web, and home servers, and **Neura1**, a graph-based company brain for hardware manufacturers.
-
-> I care about useful software, clear interfaces, private-by-default architecture, and engineering claims that can be inspected and verified.
 
 ## Selected work
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/SaiSiddharthBS/OpenWave"><img src="assets/openwave.svg" alt="OpenWave — music, everywhere" width="100%"></a>
-      <br><br>
-      <b>OpenWave</b><br>
-      An open-source, non-commercial music player with one engine across macOS, Windows, Linux, Android, iPhone, and Docker. It includes a synced library, gapless playback, offline listening, and multi-device sessions.
-      <br><br>
-      <code>Python</code> <code>FastAPI</code> <code>JavaScript</code> <code>SQLite</code> <code>Docker</code>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/SaiSiddharthBS/Neura1"><img src="assets/neura1.svg" alt="Neura1 — trace the impact before it becomes a problem" width="100%"></a>
-      <br><br>
-      <b>Neura1</b><br>
-      A graph-based company brain that traces changes across parts, bills of materials, builds, customers, decisions, and owners—helping hardware teams understand impact before it reaches production.
-      <br><br>
-      <code>Python</code> <code>FalkorDB</code> <code>Next.js</code> <code>MCP</code> <code>Local AI</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <br>
-      <a href="https://github.com/SaiSiddharthBS/Agent_Alpha"><img src="assets/agent-alpha.svg" alt="Agent Alpha — supervised market intelligence" width="100%"></a>
-      <br><br>
-      <b>Agent Alpha</b><br>
-      A supervised research and investing workspace for Indian markets, combining portfolio analysis, explicit data provenance, statistical workflows, and human-confirmed actions.
-      <br><br>
-      <code>Python</code> <code>FastAPI</code> <code>React</code> <code>TypeScript</code> <code>Market Data</code>
-    </td>
-    <td width="50%" valign="top">
-      <br>
-      <a href="https://github.com/SaiSiddharthBS/Captain_AI"><img src="assets/captain-ai.svg" alt="Captain AI — a local voice and vision assistant" width="100%"></a>
-      <br><br>
-      <b>Captain AI</b><br>
-      A local voice assistant with wake-word detection, speech, screen understanding, device control, and a heads-up interface—designed to keep the core experience on the user's machine.
-      <br><br>
-      <code>Python</code> <code>Ollama</code> <code>Whisper</code> <code>Piper</code> <code>Computer Vision</code>
-    </td>
-  </tr>
-</table>
+Two projects that capture how I like to build: a complete everyday product and a system that makes complex relationships understandable.
 
-## What I work with
+### 01 / OpenWave
 
-| Area | Tools and systems |
-|---|---|
-| **Product & interface** | TypeScript, JavaScript, React, Next.js, Flutter, responsive product design |
-| **Backend & data** | Python, FastAPI, REST APIs, SQLite, graph databases, data pipelines |
-| **Applied intelligence** | Local LLM inference, agents, MCP, speech-to-text, text-to-speech, computer vision |
-| **Delivery** | Docker, GitHub Actions, cross-platform packaging, release automation, self-hosting |
+**One music library. Every device.**
 
-## How I build
+<a href="https://github.com/SaiSiddharthBS/OpenWave"><img src="assets/openwave-preview.png" width="100%" alt="OpenWave product preview showing its desktop music player and a phone listening to the same song."></a>
 
-- **Start with the user journey.** Architecture earns its place by making the product clearer, faster, or more dependable.
-- **Keep ownership close.** Local-first storage and self-hosting are useful defaults when privacy and control matter.
-- **Show the evidence.** Provenance, tests, reproducible builds, and honest system states make complex tools trustworthy.
-- **Finish the last mile.** Installers, documentation, screenshots, and upgrade paths are part of the product.
+An open-source music player with gapless playback, offline downloads, synced libraries, and shared listening sessions. A Python engine powers desktop apps, Android, an iPhone web app, and self-hosted deployments.
+
+<sub>PYTHON &nbsp; / &nbsp; FASTAPI &nbsp; / &nbsp; JAVASCRIPT &nbsp; / &nbsp; SQLITE &nbsp; / &nbsp; DOCKER</sub>
+
+**[Explore the code ↗](https://github.com/SaiSiddharthBS/OpenWave)** &nbsp; · &nbsp; [Visit the website](https://saisiddharthbs.github.io/OpenWave/) &nbsp; · &nbsp; [Download](https://github.com/SaiSiddharthBS/OpenWave/releases)
 
 <br>
 
-<div align="center">
+### 02 / Neura1
 
-<img src="assets/footer.svg" alt="Make it useful. Make it clear. Make it hold up." width="100%">
+**Understand what a change touches.**
+
+<a href="https://cdn.jsdelivr.net/gh/SaiSiddharthBS/Neura1@64a8cd8c71cab93df6006766be7dbc44e5d68ec2/docs/demo/neura1-demo.mp4"><img src="assets/neura1-preview.jpg" width="100%" alt="Watch Neura1's three-minute product demonstration: manufacturing knowledge graph, change impact, and planning tools."></a>
+
+A company knowledge graph for hardware manufacturers. Neura1 connects parts, builds, customer orders, people, and past decisions to trace the consequences of a change. Graph queries, planning logic, and AI work together, with facts linked back to their sources.
+
+<sub>PYTHON &nbsp; / &nbsp; FALKORDB &nbsp; / &nbsp; NEXT.JS &nbsp; / &nbsp; MCP &nbsp; / &nbsp; LOCAL INFERENCE</sub>
+
+**[Explore the code ↗](https://github.com/SaiSiddharthBS/Neura1)** &nbsp; · &nbsp; [Watch the demos](https://github.com/SaiSiddharthBS/Neura1#readme) &nbsp; · &nbsp; [Read the evaluation](https://github.com/SaiSiddharthBS/Neura1/blob/main/docs/EVAL.md)
 
 <br>
 
-Open to thoughtful conversations about product engineering, applied AI, local-first software, and ambitious open-source tools.<br>
-The best way to reach me is through an issue or discussion on the relevant repository.
+### Also on the workbench
 
-</div>
+**[Agent Alpha ↗](https://github.com/SaiSiddharthBS/Agent_Alpha)** &nbsp; <sub>QUANTITATIVE SYSTEMS</sub><br>
+Indian-market research and trading tooling combining machine-learning models, market-regime analysis, risk controls, and paper trading.<br>
+<sub>Python · FastAPI · PostgreSQL · Ollama · Electron</sub>
+
+**[Captain AI ↗](https://github.com/SaiSiddharthBS/Captain_AI)** &nbsp; <sub>VOICE & AUTOMATION</sub><br>
+A voice assistant with on-device speech processing, screen understanding, and device control, combining cloud language models with local vision.<br>
+<sub>Python · Groq · Ollama · Faster-Whisper · Piper · OpenWakeWord</sub>
+
+[Browse all repositories →](https://github.com/SaiSiddharthBS?tab=repositories)
+
+<br>
+
+## Engineering interests
+
+**Embedded systems & avionics**<br>
+The intersection of hardware, software, and dependable system behaviour.
+
+**Applied AI & knowledge systems**<br>
+Local inference, voice interfaces, graph-backed reasoning, and agents connected to useful tools.
+
+**Product engineering**<br>
+Taking an idea through interface design, backend services, packaging, documentation, and releases.
+
+<br>
+
+## Toolbox
+
+**Applications** &nbsp; Python · TypeScript · JavaScript · React · Next.js · Flutter<br>
+**Services & data** &nbsp; FastAPI · SQLite · PostgreSQL · FalkorDB<br>
+**AI & integration** &nbsp; Ollama · vLLM · Whisper · MCP<br>
+**Build & delivery** &nbsp; Git · GitHub Actions · Docker · Cross-platform packaging
+
+<details>
+<summary><b>A few things I care about when building</b></summary>
+
+- Interfaces that make the next action obvious.
+- Data ownership and practical self-hosting options.
+- Traceable outputs and clear limits on what a system knows.
+- Documentation and releases that make a project usable beyond my own machine.
+
+</details>
+
+<br>
+
+## Connect
+
+Interested in embedded systems, applied AI, or building useful open-source software?<br>
+Start with an issue on the relevant project: **[OpenWave](https://github.com/SaiSiddharthBS/OpenWave/issues)** · **[Neura1](https://github.com/SaiSiddharthBS/Neura1/issues)**.
+
+---
+
+<p align="center"><sub>SAI SIDDHARTH B S &nbsp; / &nbsp; EXPLORING SYSTEMS. BUILDING PRODUCTS.</sub></p>
