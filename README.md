@@ -28,6 +28,8 @@ Four projects across music, manufacturing knowledge, quantitative research, and 
 
 ### 01 / OpenWave
 
+<p align="center"><a href="https://github.com/SaiSiddharthBS/OpenWave"><img src="assets/openwave-logo.png" width="230" alt="Original OpenWave logo: a blue and violet waveform ribbon with an audio equalizer running through it."></a></p>
+
 **One music library. Every device.**
 
 <a href="https://github.com/SaiSiddharthBS/OpenWave"><img src="assets/openwave-preview.png" width="100%" alt="OpenWave product preview showing its desktop music player and a phone listening to the same song."></a>
@@ -41,6 +43,14 @@ An open-source music player with gapless playback, offline downloads, synced lib
 <br>
 
 ### 02 / Neura1
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/neura1-logo-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/neura1-logo-light.png">
+  <img src="assets/neura1-logo-light.png" width="160" alt="Original Neura1 logo: a networked brain surrounding the characters N1, above the Neura1 wordmark.">
+</picture>
+</div>
 
 **Understand what a change touches.**
 

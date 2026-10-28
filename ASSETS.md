@@ -7,6 +7,9 @@ The README uses local copies so its presentation does not depend on third-party 
 | `assets/banner.png` | User-supplied `Banner.png`, copied unchanged on 2026-10-28. |
 | `assets/openwave-preview.png` | `SaiSiddharthBS/OpenWave`, `docs/screenshots/hero.png`, retrieved 2026-10-28. |
 | `assets/neura1-preview.jpg` | `SaiSiddharthBS/Neura1`, `docs/demo/demo-poster.jpg`, retrieved 2026-10-28. |
+| `assets/openwave-logo.png` | Original `OpenWave/docs/logo.png`, copied unchanged on 2026-10-29. |
+| `assets/neura1-logo-dark.png` | Original `Neura1-GraphHacks/docs/readme/logo-dark.png`, copied unchanged on 2026-10-29. |
+| `assets/neura1-logo-light.png` | Original `Neura1-GraphHacks/docs/readme/logo-light.png`, copied unchanged on 2026-10-29. |
 | `assets/agent-alpha-logo.png` | Original `Market Analyser/Agent Alpha Logo v2.png`, copied unchanged on 2026-10-29. |
 | `assets/captain-ai-logo.png` | `SaiSiddharthBS/Captain_AI`, `assets/Logo.png`, retrieved unchanged 2026-10-29. |
 | `assets/agent-alpha-preview.png` | `SaiSiddharthBS/Agent_Alpha`, `Screenshots/1.png`, retrieved 2026-10-29. |
