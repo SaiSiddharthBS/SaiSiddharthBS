@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Sai Siddharth</title>
+  <desc id="desc">Building thoughtful software from interface to infrastructure.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b12"/>
+      <stop offset="0.55" stop-color="#101728"/>
+      <stop offset="1" stop-color="#09131a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c6cff"/>
+      <stop offset="0.52" stop-color="#44c7ff"/>
+      <stop offset="1" stop-color="#45e6b0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#44c7ff" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#44c7ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#a9c7e8" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <clipPath id="frame"><rect width="1200" height="430" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="430" fill="url(#bg)"/>
+    <rect width="1200" height="430" fill="url(#grid)"/>
+    <circle cx="1050" cy="74" r="250" fill="url(#glow)"/>
+    <circle cx="890" cy="360" r="180" fill="#7c6cff" opacity=".08" filter="url(#soft)"/>
+    <path d="M0 342C179 309 267 397 434 350S736 260 1200 311" fill="none" stroke="url(#accent)" stroke-opacity=".22" stroke-width="2"/>
+    <path d="M0 364C170 331 294 409 450 367S765 288 1200 335" fill="none" stroke="#77dafc" stroke-opacity=".08"/>
+
+    <g transform="translate(72 62)">
+      <rect width="66" height="28" rx="14" fill="#131d2c" stroke="#456078"/>
+      <circle cx="16" cy="14" r="4" fill="#45e6b0"/>
+      <text x="29" y="18" fill="#b9c9db" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1.2">ONLINE</text>
+    </g>
+
+    <text x="72" y="172" fill="#eef6ff" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="68" font-weight="720" letter-spacing="-2.4">Sai Siddharth</text>
+    <rect x="72" y="194" width="476" height="4" rx="2" fill="url(#accent)"/>
+    <text x="72" y="246" fill="#b7c4d4" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="450">Building thoughtful software from interface to infrastructure.</text>
+    <text x="72" y="286" fill="#70839a" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="1.2">PRODUCT  /  APPLIED AI  /  LOCAL-FIRST SYSTEMS</text>
+
+    <g transform="translate(887 81)">
+      <circle cx="118" cy="118" r="101" fill="none" stroke="#86a4c3" stroke-opacity=".16"/>
+      <circle cx="118" cy="118" r="77" fill="none" stroke="#44c7ff" stroke-opacity=".23" stroke-dasharray="3 9"/>
+      <circle cx="118" cy="118" r="53" fill="#0e1724" stroke="url(#accent)" stroke-width="2"/>
+      <path d="M44 90L85 105M151 80l37-32M169 139l54 17M82 159l-39 34" stroke="#77dafc" stroke-opacity=".32"/>
+      <circle cx="44" cy="90" r="5" fill="#7c6cff"/>
+      <circle cx="188" cy="48" r="5" fill="#44c7ff"/>
+      <circle cx="223" cy="156" r="5" fill="#45e6b0"/>
+      <circle cx="43" cy="193" r="5" fill="#44c7ff"/>
+      <text x="118" y="130" text-anchor="middle" fill="#f4f8ff" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="33" font-weight="750" letter-spacing="-1">SS</text>
+    </g>
+
+    <g transform="translate(72 362)" fill="#8497ab" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">
+      <text x="0" y="0">01  BUILD THE PRODUCT</text>
+      <text x="230" y="0">02  TRACE THE SYSTEM</text>
+      <text x="466" y="0">03  SHIP THE LAST MILE</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="429" rx="27.5" fill="none" stroke="#7e9ab8" stroke-opacity=".2"/>
+</svg>

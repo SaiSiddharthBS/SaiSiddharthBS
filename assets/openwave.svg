@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="220" viewBox="0 0 580 220" role="img" aria-labelledby="title desc">
+  <title id="title">OpenWave</title><desc id="desc">Music, everywhere.</desc>
+  <defs>
+    <linearGradient id="ow-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101126"/><stop offset="1" stop-color="#191d3f"/></linearGradient>
+    <linearGradient id="ow-accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#887cff"/><stop offset="1" stop-color="#49c9ff"/></linearGradient>
+  </defs>
+  <rect width="580" height="220" rx="20" fill="url(#ow-bg)"/>
+  <circle cx="490" cy="34" r="108" fill="#7568ff" opacity=".09"/>
+  <g transform="translate(38 35)">
+    <circle cx="26" cy="26" r="25" fill="url(#ow-accent)"/>
+    <path d="M17 17v19c0 5 7 7 11 3 3-3 1-8-4-8-2 0-3 0-4 1V20l15-3v14c0 5 7 7 11 3 3-3 1-8-4-8-2 0-3 0-4 1V13z" fill="#fff" transform="translate(-3) scale(.74)"/>
+  </g>
+  <text x="102" y="62" fill="#f4f2ff" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="27" font-weight="720">OpenWave</text>
+  <text x="38" y="112" fill="#c6c9eb" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18">Music, everywhere.</text>
+  <text x="38" y="143" fill="#858daf" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">ONE ENGINE  ·  SIX PLATFORMS  ·  YOUR LIBRARY</text>
+  <g transform="translate(39 176)" fill="url(#ow-accent)">
+    <rect x="0" y="11" width="4" height="10" rx="2"/><rect x="10" y="4" width="4" height="24" rx="2"/><rect x="20" y="8" width="4" height="16" rx="2"/><rect x="30" width="4" height="32" rx="2"/><rect x="40" y="6" width="4" height="20" rx="2"/><rect x="50" y="12" width="4" height="8" rx="2"/><rect x="60" y="3" width="4" height="26" rx="2"/><rect x="70" y="9" width="4" height="14" rx="2"/><rect x="80" y="5" width="4" height="22" rx="2"/><rect x="90" y="12" width="4" height="8" rx="2"/>
+  </g>
+  <rect x=".5" y=".5" width="579" height="219" rx="19.5" fill="none" stroke="#9f98ff" stroke-opacity=".26"/>
+</svg>

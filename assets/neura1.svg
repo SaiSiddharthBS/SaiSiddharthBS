@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="220" viewBox="0 0 580 220" role="img" aria-labelledby="title desc">
+  <title id="title">Neura1</title><desc id="desc">See the impact before it becomes a problem.</desc>
+  <defs>
+    <linearGradient id="n-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a111e"/><stop offset="1" stop-color="#0c2230"/></linearGradient>
+    <linearGradient id="n-accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#3f78ff"/><stop offset="1" stop-color="#20dfc5"/></linearGradient>
+  </defs>
+  <rect width="580" height="220" rx="20" fill="url(#n-bg)"/>
+  <circle cx="494" cy="32" r="110" fill="#24cfc4" opacity=".07"/>
+  <g transform="translate(40 31)" stroke="#56d7d0" stroke-opacity=".56" stroke-width="1.5">
+    <path d="M14 28L42 8l27 21-9 32H26z" fill="none"/>
+    <path d="M14 28l46 33M42 8L26 61M69 29L14 28M42 8l18 53"/>
+    <circle cx="14" cy="28" r="6" fill="#3f78ff" stroke="none"/><circle cx="42" cy="8" r="5" fill="#54a5ff" stroke="none"/><circle cx="69" cy="29" r="7" fill="#20dfc5" stroke="none"/><circle cx="60" cy="61" r="5" fill="#3f78ff" stroke="none"/><circle cx="26" cy="61" r="6" fill="#20dfc5" stroke="none"/>
+  </g>
+  <text x="126" y="62" fill="#f0f8ff" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="27" font-weight="720">Neura1</text>
+  <text x="38" y="112" fill="#bed4df" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18">Trace the impact before it becomes a problem.</text>
+  <text x="38" y="143" fill="#738c9b" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">GRAPH  ·  MEMORY  ·  PLANNING  ·  ACTION</text>
+  <g transform="translate(41 178)">
+    <circle cx="4" cy="4" r="4" fill="#3f78ff"/><path d="M8 4h49" stroke="#4f7da0"/><circle cx="61" cy="4" r="4" fill="#54a5ff"/><path d="M65 4h49" stroke="#4f7da0"/><circle cx="118" cy="4" r="4" fill="#20dfc5"/><path d="M122 4h49" stroke="#4f7da0"/><circle cx="175" cy="4" r="4" fill="#20dfc5"/>
+  </g>
+  <rect x=".5" y=".5" width="579" height="219" rx="19.5" fill="none" stroke="#4fb8c7" stroke-opacity=".24"/>
+</svg>
