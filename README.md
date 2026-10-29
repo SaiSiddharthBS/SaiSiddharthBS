@@ -22,27 +22,11 @@ My interests extend into embedded systems, avionics, and defence technology.
 
 ## Selected work
 
-Four projects across music, manufacturing knowledge, quantitative research, and voice-driven automation. Each brings together the interface, the underlying engines, and the work needed to connect them.
+Four projects across manufacturing knowledge, music, quantitative research, and voice-driven automation. Each brings together the interface, the underlying engines, and the work needed to connect them.
 
-[OpenWave](#01--openwave) · [Neura1](#02--neura1) · [Agent Alpha](#03--agent-alpha) · [Captain AI](#04--captain-ai)
+[Neura1](#01--neura1) · [OpenWave](#02--openwave) · [Agent Alpha](#03--agent-alpha) · [Captain AI](#04--captain-ai)
 
-### 01 / OpenWave
-
-<p align="center"><a href="https://github.com/SaiSiddharthBS/OpenWave"><img src="assets/openwave-logo.png" width="230" alt="Original OpenWave logo: a blue and violet waveform ribbon with an audio equalizer running through it."></a></p>
-
-**One music library. Every device.**
-
-<a href="https://github.com/SaiSiddharthBS/OpenWave"><img src="assets/openwave-preview.png" width="100%" alt="OpenWave product preview showing its desktop music player and a phone listening to the same song."></a>
-
-An open-source music player with gapless playback, offline downloads, synced libraries, and shared listening sessions. A Python engine powers desktop apps, Android, an iPhone web app, and self-hosted deployments.
-
-<sub>PYTHON &nbsp; / &nbsp; FASTAPI &nbsp; / &nbsp; JAVASCRIPT &nbsp; / &nbsp; SQLITE &nbsp; / &nbsp; DOCKER</sub>
-
-**[Explore the code ↗](https://github.com/SaiSiddharthBS/OpenWave)** &nbsp; · &nbsp; [Visit the website](https://saisiddharthbs.github.io/OpenWave/) &nbsp; · &nbsp; [Download](https://github.com/SaiSiddharthBS/OpenWave/releases)
-
-<br>
-
-### 02 / Neura1
+### 01 / Neura1
 
 <div align="center">
 <picture>
@@ -52,15 +36,31 @@ An open-source music player with gapless playback, offline downloads, synced lib
 </picture>
 </div>
 
-**Understand what a change touches.**
+**A company brain that shows what a change will affect.**
 
 <a href="https://cdn.jsdelivr.net/gh/SaiSiddharthBS/Neura1@64a8cd8c71cab93df6006766be7dbc44e5d68ec2/docs/demo/neura1-demo.mp4"><img src="assets/neura1-preview.jpg" width="100%" alt="Watch Neura1's three-minute product demonstration: manufacturing knowledge graph, change impact, and planning tools."></a>
 
-A company knowledge graph for hardware manufacturers. Neura1 connects parts, builds, customer orders, people, and past decisions to trace the consequences of a change. Graph queries, planning logic, and AI work together, with facts linked back to their sources.
+Neura1 connects a manufacturer's parts, builds, customer orders, people, and decisions in one knowledge graph. When something changes, it traces the impact, explains why, and helps the team plan what to do next.
 
 <sub>PYTHON &nbsp; / &nbsp; FALKORDB &nbsp; / &nbsp; NEXT.JS &nbsp; / &nbsp; MCP &nbsp; / &nbsp; LOCAL INFERENCE</sub>
 
 **[Explore the code ↗](https://github.com/SaiSiddharthBS/Neura1)** &nbsp; · &nbsp; [Watch the demos](https://github.com/SaiSiddharthBS/Neura1#readme) &nbsp; · &nbsp; [Read the evaluation](https://github.com/SaiSiddharthBS/Neura1/blob/main/docs/EVAL.md)
+
+<br>
+
+### 02 / OpenWave
+
+<p align="center"><a href="https://github.com/SaiSiddharthBS/OpenWave"><img src="assets/openwave-logo.png" width="230" alt="Original OpenWave logo: a blue and violet waveform ribbon with an audio equalizer running through it."></a></p>
+
+**One music library. Every device.**
+
+<a href="https://github.com/SaiSiddharthBS/OpenWave"><img src="assets/openwave-preview.png" width="100%" alt="OpenWave product preview showing its desktop music player and a phone listening to the same song."></a>
+
+OpenWave is an open-source music player designed to feel like one product across every screen. It brings gapless playback, offline downloads, synced libraries, and listen-together sessions to desktop, mobile, web, and self-hosted setups.
+
+<sub>PYTHON &nbsp; / &nbsp; FASTAPI &nbsp; / &nbsp; JAVASCRIPT &nbsp; / &nbsp; SQLITE &nbsp; / &nbsp; DOCKER</sub>
+
+**[Explore the code ↗](https://github.com/SaiSiddharthBS/OpenWave)** &nbsp; · &nbsp; [Visit the website](https://saisiddharthbs.github.io/OpenWave/) &nbsp; · &nbsp; [Download](https://github.com/SaiSiddharthBS/OpenWave/releases)
 
 <br>
 
