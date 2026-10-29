@@ -11,12 +11,12 @@
 
 <h1>Sai Siddharth B S</h1>
 
-<b>Building Neura1 — software that shows hardware manufacturers what a change will break.</b>
+<b>I turn hard problems into systems that work.</b>
 
-It connects parts, builds, orders, people, and past decisions so teams can trace<br>
-the impact of a change before it disrupts production or delivery.
+AI, embedded technology, avionics, and software—<br>
+engineered with depth and shipped as real products.
 
-<b>Built and shipped by me:</b> graph, planning engine, AI, interface, integrations, and deployment.
+<b>Build boldly. Prove everything. Ship.</b>
 
 </div>
 
