@@ -11,10 +11,10 @@
 
 <h1>Sai Siddharth B S</h1>
 
-<b>Hardware curiosity. Software craft. Products that work.</b>
+<b>Engineering ambitious systems. Shipping them as real products.</b>
 
-I build across applications, applied AI, and data systems.<br>
-My interests extend into embedded systems, avionics, and defence technology.
+Across embedded systems, avionics, applied AI, and full-stack software,<br>
+I take complex ideas from system architecture to polished deployment.
 
 </div>
 
