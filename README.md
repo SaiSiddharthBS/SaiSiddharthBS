@@ -9,22 +9,21 @@
 <a href="#toolbox">Toolbox</a> &nbsp; / &nbsp;
 <a href="#connect">Connect</a>
 
-<h1>Sai Siddharth B S</h1>
-
-<b>I turn hard problems into systems that work.</b>
-
-AI, embedded technology, avionics, and software—<br>
-engineered with depth and shipped as real products.
-
-<b>Build boldly. Prove everything. Ship.</b>
+<h2>Engineered with purpose. Built with intent.</h2>
 
 </div>
 
 <br>
 
+## About
+
+I'm an engineer and developer with a keen focus on embedded systems, avionics and artificial intelligence. My interests span firmware development and hardware integration to intelligent applications and comprehensive software solutions. I’m driven by a curiosity to understand complex systems, a passion for exploring emerging technologies, and the challenge of transforming ideas into robust, efficient, and meaningful solutions.
+
+<br>
+
 ## Selected work
 
-Four projects across manufacturing knowledge, music, quantitative research, and voice-driven automation. Each brings together the interface, the underlying engines, and the work needed to connect them.
+Four systems, four different problems: a company knowledge graph, a cross-device music player, a quantitative research engine, and a voice assistant.
 
 [Neura1](#01--neura1) · [OpenWave](#02--openwave) · [Agent Alpha](#03--agent-alpha) · [Captain AI](#04--captain-ai)
 
@@ -44,6 +43,30 @@ Four projects across manufacturing knowledge, music, quantitative research, and 
 
 Neura1 connects a manufacturer's parts, builds, customer orders, people, and decisions in one knowledge graph. When something changes, it traces the impact, explains why, and helps the team plan what to do next.
 
+**What the system brings together**
+
+- **Knowledge with evidence.** Decisions, documents, conversations, and people are linked to the underlying work. An answer can lead back to the source that supports it.
+- **Change impact.** A change to a part or supplier can be traced through product revisions, planned builds, customer orders, and the people responsible for them.
+- **Planning before promises.** A timeline compares the original plan with the current forecast; stock, lead times, orders, and availability explain where a delivery may slip.
+- **Action in existing workflows.** Department agents surface issues, while Zoho connections and MCP tools let Neura1 work alongside the systems a team already uses.
+
+<details>
+<summary><b>Inside the engineering — graph, planning, and trustworthy AI</b></summary>
+
+#### One connected model
+
+FalkorDB joins company records into a graph of parts, products, builds, suppliers, orders, customers, people, and decisions. Traversals reveal dependencies that would otherwise sit across separate spreadsheets and tools. Source links keep the reasoning inspectable.
+
+#### Forecasts computed in code
+
+The planning engine works from inventory, open purchase orders, supplier notices, lead times, and leave to forecast delays and explain their causes. A sandbox can test a proposed change on a copy of the graph before it affects the working plan. Cost and stock calculations stay in code rather than being guessed by a model.
+
+#### AI with boundaries
+
+The model helps find and summarize evidence, while validation checks quotes against sources and applies access rules to answers. A web interface, chat, document tools, and optional MCP connections expose the same underlying system to different teams. The repository includes a product demonstration and evaluation notes.
+
+</details>
+
 <sub>PYTHON &nbsp; / &nbsp; FALKORDB &nbsp; / &nbsp; NEXT.JS &nbsp; / &nbsp; MCP &nbsp; / &nbsp; LOCAL INFERENCE</sub>
 
 **[Explore the code ↗](https://github.com/SaiSiddharthBS/Neura1)** &nbsp; · &nbsp; [Watch the demos](https://github.com/SaiSiddharthBS/Neura1#readme) &nbsp; · &nbsp; [Read the evaluation](https://github.com/SaiSiddharthBS/Neura1/blob/main/docs/EVAL.md)
@@ -60,6 +83,30 @@ Neura1 connects a manufacturer's parts, builds, customer orders, people, and dec
 
 OpenWave is an open-source music player designed to feel like one product across every screen. It brings gapless playback, offline downloads, synced libraries, and listen-together sessions to desktop, mobile, web, and self-hosted setups.
 
+**What the system brings together**
+
+- **One player across devices.** A shared Python engine powers macOS, Windows, Linux, and Android apps, an iPhone web app, and a Docker deployment.
+- **The listening experience.** Gapless playback, synced lyrics, offline downloads, personal mixes, and playlist import turn a catalogue into a daily-use music library.
+- **Your library, in your hands.** Profiles, playlists, likes, and history live in SQLite on your device or server, with changes synced across your devices.
+- **Listening together.** Devices on the same network can discover and pair with one another, hand off playback, act as remotes, or join a synchronized session.
+
+<details>
+<summary><b>Inside the engineering — playback, sync, and release delivery</b></summary>
+
+#### One engine, several native shells
+
+FastAPI provides the catalogue, streaming, library, import, and device APIs. A shared web interface runs inside platform-specific shells, including Swift on macOS and Kotlin on Android. The same core behaviour reaches desktop, mobile, browser, and home-server use cases.
+
+#### Playback and data ownership
+
+The engine resolves audio tracks and proxies streams in chunks so playback can resume after an interrupted connection. Library operations are stored locally in SQLite; clients keep an outbox of changes made while offline and sync on reconnection. Nearby devices require pairing before they can control playback or join a session.
+
+#### Shipping the whole product
+
+The project includes installers, Docker images, checksums, in-app updates, screenshots, and setup guides. The release path matters as much as the player itself: someone should be able to install it and use it without reconstructing the development environment.
+
+</details>
+
 <sub>PYTHON &nbsp; / &nbsp; FASTAPI &nbsp; / &nbsp; JAVASCRIPT &nbsp; / &nbsp; SQLITE &nbsp; / &nbsp; DOCKER</sub>
 
 **[Explore the code ↗](https://github.com/SaiSiddharthBS/OpenWave)** &nbsp; · &nbsp; [Visit the website](https://saisiddharthbs.github.io/OpenWave/) &nbsp; · &nbsp; [Download](https://github.com/SaiSiddharthBS/OpenWave/releases)
@@ -72,9 +119,9 @@ OpenWave is an open-source music player designed to feel like one product across
 
 **From market data to signals, risk decisions, and a paper-trading arena.**
 
-Agent Alpha is my quantitative research and trading project for Indian equities. It brings market-data ingestion, technical analysis, machine-learning signals, market-regime classification, risk checks, and portfolio monitoring into a connected system. The engineering spans the analytical backend, scheduled jobs, persistent data, desktop interface, and remote monitoring.
-
 <a href="https://github.com/SaiSiddharthBS/Agent_Alpha#system-gallery"><img src="assets/agent-alpha-preview.png" width="100%" alt="Agent Alpha dashboard from the public repository, showing market information, research panels, and system monitoring."></a>
+
+Agent Alpha is my quantitative research and trading project for Indian equities. It brings market-data ingestion, technical analysis, machine-learning signals, market-regime classification, risk checks, and portfolio monitoring into a connected system. The engineering spans the analytical backend, scheduled jobs, persistent data, desktop interface, and remote monitoring.
 
 **What the system brings together**
 
@@ -112,9 +159,9 @@ The repository includes checks for database hangs, portfolio queries, pricing fa
 
 **A voice interface connected to the screen, the desktop, and the phone.**
 
-Captain AI is my modular assistant project, built around a central intent router that coordinates speech, conversation, screen understanding, and device actions. It combines on-device audio processing with cloud language-model inference and local vision, bringing those capabilities into a desktop overlay and a remote Telegram interface.
-
 <a href="https://github.com/SaiSiddharthBS/Captain_AI#readme"><img src="assets/captain-ai-preview.png" width="100%" alt="Captain AI Ghost HUD: the project's desktop assistant overlay, shown in its public interface gallery."></a>
+
+Captain AI is my modular assistant project, built around a central intent router that coordinates speech, conversation, screen understanding, and device actions. It combines on-device audio processing with cloud language-model inference and local vision, bringing those capabilities into a desktop overlay and a remote Telegram interface.
 
 **What the system brings together**
 
@@ -130,17 +177,13 @@ Captain AI is my modular assistant project, built around a central intent router
 
 The central `Brain` routes input to independent speech, language, vision, and device-control engines. The architecture keeps microphone capture, model calls, audio playback, and interface updates as distinct responsibilities connected through the orchestration layer.
 
-#### More than transcription and a reply
+#### Voice pipeline and compute
 
-The voice pipeline includes filters for spurious transcription, wake-word sensitivity, speech caching, and coordination between music and spoken output. Android integration uses ADB commands and UI hierarchy parsing. The repository also demonstrates voice-driven email composition and phone workflows.
+The voice pipeline includes filters for spurious transcription, wake-word sensitivity, speech caching, and coordination between music and spoken output. Wake-word detection, speech recognition, speech synthesis, and the Moondream vision path run locally. The documented default conversational model uses Groq; retrieval and messaging integrations require network access. Android integration uses ADB commands and UI hierarchy parsing, and the repository demonstrates voice-driven email composition and phone workflows.
 
 #### Interface evolution
 
-The project progressed from a CustomTkinter prototype with logs and controls to the Ghost HUD: a compact overlay with a global shortcut and visual feedback for each interaction stage. A WebSocket protocol carries state changes between the Python backend and the interface. The repository includes screenshots of both generations and video demonstrations.
-
-#### Where computation happens
-
-Wake-word detection, speech recognition, speech synthesis, and the Moondream vision path run locally. The documented default conversational model uses Groq, while retrieval and messaging integrations require network access. Windows is the documented setup target; broader platform support remains development work.
+The project progressed from a CustomTkinter prototype with logs and controls to the Ghost HUD: a compact overlay with a global shortcut and visual feedback for each interaction stage. A WebSocket protocol carries state changes between the Python backend and the interface. The repository includes screenshots of both generations and video demonstrations. Windows is the documented setup target; broader platform support remains development work.
 
 </details>
 

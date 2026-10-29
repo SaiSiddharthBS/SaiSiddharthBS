@@ -4,7 +4,7 @@ The README uses local copies so its presentation does not depend on third-party 
 
 | File | Source |
 | --- | --- |
-| `assets/banner.png` | User-supplied `Banner.png`, copied unchanged on 2026-10-28. |
+| `assets/banner.png` | Updated user-supplied `Banner.png`, copied unchanged on 2026-10-29. |
 | `assets/openwave-preview.png` | `SaiSiddharthBS/OpenWave`, `docs/screenshots/hero.png`, retrieved 2026-10-28. |
 | `assets/neura1-preview.jpg` | `SaiSiddharthBS/Neura1`, `docs/demo/demo-poster.jpg`, retrieved 2026-10-28. |
 | `assets/openwave-logo.png` | Original `OpenWave/docs/logo.png`, copied unchanged on 2026-10-29. |
