@@ -37,7 +37,7 @@ Four systems, four different problems: a company knowledge graph, a cross-device
 </picture>
 </div>
 
-**A company brain that shows what a change will affect.**
+<p align="center"><strong>A company brain that shows what a change will affect.</strong></p>
 
 <a href="https://cdn.jsdelivr.net/gh/SaiSiddharthBS/Neura1@64a8cd8c71cab93df6006766be7dbc44e5d68ec2/docs/demo/neura1-demo.mp4"><img src="assets/neura1-preview.jpg" width="100%" alt="Watch Neura1's three-minute product demonstration: manufacturing knowledge graph, change impact, and planning tools."></a>
 
@@ -77,7 +77,7 @@ The model helps find and summarize evidence, while validation checks quotes agai
 
 <p align="center"><a href="https://github.com/SaiSiddharthBS/OpenWave"><img src="assets/openwave-logo.png" width="230" alt="Original OpenWave logo: a blue and violet waveform ribbon with an audio equalizer running through it."></a></p>
 
-**One music library. Every device.**
+<p align="center"><strong>One music library. Every device.</strong></p>
 
 <a href="https://github.com/SaiSiddharthBS/OpenWave"><img src="assets/openwave-preview.png" width="100%" alt="OpenWave product preview showing its desktop music player and a phone listening to the same song."></a>
 
@@ -117,7 +117,7 @@ The project includes installers, Docker images, checksums, in-app updates, scree
 
 <p align="center"><a href="https://github.com/SaiSiddharthBS/Agent_Alpha"><img src="assets/agent-alpha-logo.png" width="144" alt="Original Agent Alpha logo: a metallic alpha symbol with an aircraft detail."></a></p>
 
-**From market data to signals, risk decisions, and a paper-trading arena.**
+<p align="center"><strong>From market data to signals, risk decisions, and a paper-trading arena.</strong></p>
 
 <a href="https://github.com/SaiSiddharthBS/Agent_Alpha#system-gallery"><img src="assets/agent-alpha-preview.png" width="100%" alt="Agent Alpha dashboard from the public repository, showing market information, research panels, and system monitoring."></a>
 
@@ -157,7 +157,7 @@ The repository includes checks for database hangs, portfolio queries, pricing fa
 
 <p align="center"><a href="https://github.com/SaiSiddharthBS/Captain_AI"><img src="assets/captain-ai-logo.png" width="420" alt="Original Captain AI wordmark in metallic white, blue, and violet."></a></p>
 
-**A voice interface connected to the screen, the desktop, and the phone.**
+<p align="center"><strong>A voice interface connected to the screen, the desktop, and the phone.</strong></p>
 
 <a href="https://github.com/SaiSiddharthBS/Captain_AI#readme"><img src="assets/captain-ai-preview.png" width="100%" alt="Captain AI Ghost HUD: the project's desktop assistant overlay, shown in its public interface gallery."></a>
 
