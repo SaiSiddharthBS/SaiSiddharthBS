@@ -11,10 +11,12 @@
 
 <h1>Sai Siddharth B S</h1>
 
-<b>Engineering ambitious systems. Shipping them as real products.</b>
+<b>Building Neura1 — a company brain for hardware manufacturers.</b>
 
-Across embedded systems, avionics, applied AI, and full-stack software,<br>
-I take complex ideas from system architecture to polished deployment.
+It connects parts, builds, orders, people, and past decisions so teams can trace<br>
+the impact of a change before it disrupts production or delivery.
+
+<b>Built and shipped by me:</b> graph, planning engine, AI, interface, integrations, and deployment.
 
 </div>
 
