@@ -11,7 +11,7 @@
 
 <h1>Sai Siddharth B S</h1>
 
-<b>Building Neura1 — a company brain for hardware manufacturers.</b>
+<b>Building Neura1 — software that shows hardware manufacturers what a change will break.</b>
 
 It connects parts, builds, orders, people, and past decisions so teams can trace<br>
 the impact of a change before it disrupts production or delivery.
